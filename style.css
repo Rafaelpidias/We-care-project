@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+header {
+  margin: 44px 0 217px 76px;
+}
+.link-header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #989d9c;
+  cursor: pointer;
+  margin-right: 23px;
+}
+.button-header {
+  border-radius: 20.5px;
+  background: #665ae1;
+  width: 130px;
+  height: 41px;
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.button-header:hover{
+  opacity: .5;
+}
+.button-header:active{
+  opacity: .3;
+}
+
+.image-logo {
+  width: 568px;
+  height: 500px;
+  margin-left: 125px;
+  display: inline-block;
+}
+
+section {
+  display: inline-block;
+  margin-left: 86px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 100px;
+  color: #515151;
+  line-height: 122px;
+}
+h2 {
+  line-height: 71px;
+  font-size: 58px;
+  color: #515151;
+  font-weight: 448;
+}
+p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29.26px;
+  width: 515px;
+  margin-top: 32px;
+  margin-bottom: 65px;
+}
+
+.button-section {
+  background: #adff00;
+  border-radius: 30px;
+  width: 239px;
+  height: 64px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px 0px #00000040; /* ou filter:drop-shadow(0px 4px 4px 0px #0000040*/
+  font-size: 28px;
+  font-weight: 700; /*não colocar px*/
+  color: #000000;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+
+.button-section:hover{
+opacity: .3;
+
+}
+.button-section:active{
+  opacity: .6;
+}
+
+@media (max-width: 720px) {
+  .link-header {
+    display: none;
+    width: 100%;
+  }
+
+  .button-header {
+    max-width: 91px;
+    height: 31px;
+    position: fixed;
+    right: 0%;
+    margin-right: 150px;
+    top: 30px;
+    align-items: center;
+  }
+  .image-logo {
+    max-width: 312px;
+    height: 317px;
+    display: block;
+    margin: auto;
+  }
+  section{
+    height: 80vh;
+    width: 80vw;
+  }
+
+  h1 {
+    max-width: 400px;
+    height: 10px;
+    line-height: 60px;
+    font-size: 50px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    
+  }
+  h2 {
+    max-width: 232px;
+    height: 37px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 15px;
+    font-weight: 500;
+  
+    
+  }
+  p {
+    display: none;
+  }
+
+  .button-section {
+    width: 239px;
+    height: 54px;
+    font-size: 28px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 50px;
+    margin-top: 30px;
+    font-weight: 700;
+  }
+}
