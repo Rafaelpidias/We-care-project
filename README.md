@@ -5,3 +5,9 @@
 <p>Nesse projeto consegui fixar mais os conhecimentos de posicionamento e estilização dos elementos para que o usuário tenha uma experiência perfeita, também com responsividade</p>
 <br>
 <h3>Tecnologias usadas:</h3>
+<br>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<br>
+
+
